@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>my-app</title> 
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styless.css"  type="text/css"/> 
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>hello client</h1>
+    <div style="background-image: url('imagee.jpeg');"></div>
+    <!--<button onclick="func()">Submit</button> -->
+    <br>
+		<form action="/button" onsubmit="myfunction(this)" method="POST">
+      <div>
+        <label> Please enter a desired action: </label>
+        <input type="text" name="text">
+        <input type="submit" name="submit"
+			  value="send post request">
+      </div>
+		</form>
+    <br>
+    <button type="button" id="lo" onclick="func();">click!</button>
+  </body>
+</html>
+
